@@ -1,0 +1,16 @@
+
+section{
+    text-align: center;
+}
+section > div{
+    text-align: left;
+    margin: auto;
+    margin-top: 25px;
+    border: 1px solid black;
+    width: 60%;
+    border-radius: 25px;
+    background-color: beige;
+    padding: 10px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
