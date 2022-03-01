@@ -104,16 +104,12 @@ nav > div > span{
     float: right;
 }
 .center-text{
-    /* margin: auto; */
-    /* margin-top: 10px; */
     background-color: lightgray;
     opacity: 40%;
     position: absolute;
     transform: translate(50%);
     -ms-transform: translate(50%);
     top: 30%;
-    /* transform: translateY(50%); */
-    /* text-align: center; */
     width: 50%;
     border-radius: 25px;
 }
@@ -122,4 +118,5 @@ div.center-text p{
     color: black;
     font-size: 1.2em;
     text-align: center;
+    /* opacity: 1000%; */
 }
