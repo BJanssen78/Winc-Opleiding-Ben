@@ -104,8 +104,8 @@ nav > div > span{
     float: right;
 }
 .center-text{
-    background-color: lightgray;
-    opacity: 40%;
+    background-color: rgba(211,211,211,0.5);
+    /* opacity: 40%; */
     position: absolute;
     transform: translate(50%);
     -ms-transform: translate(50%);
