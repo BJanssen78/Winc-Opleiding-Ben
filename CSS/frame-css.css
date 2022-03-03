@@ -1,0 +1,42 @@
+div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 1.2em;
+}
+.content-div{
+    min-width: 1024px;
+}
+div.kleinste{
+    width: 405px;
+}
+div.zes-honderd{
+    width: 605px;
+}
+iframe{
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+.frame-header{
+    font-size: 1.5em;
+    color: black;
+}
+button{
+    width: 200px;
+    font-size: 1.5em;
+    margin: 10px;
+    padding: 5px;
+    background-color: aqua;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+button:hover, a:hover{
+    color: yellow;
+    background-color: black;
+}
+/* button a:hover{
+    color: yellow;
+} */

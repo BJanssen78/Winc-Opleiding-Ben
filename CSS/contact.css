@@ -1,0 +1,38 @@
+section{
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    width: 60%;
+}
+form{
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 25px;
+    /* text-align: center; */
+}
+table{
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 80%;
+    /* border: 1px solid black; */
+}
+table > th, tr, td{
+    border: 1px solid black;
+}
+td.radio{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+}
+input.radio{
+    min-width: 25px;
+   /* flex-direction: row; */
+    padding: 0;
+}
+input.txt{
+    width: 200px;
+}
+/* td.txt{
+    width: 150px;
+    text-align: right;
+} */
