@@ -45,16 +45,16 @@
         </ul>       
     </nav>
 
-    <section>
-        <form>
+    <section id="contact-form">
+        <form method="post" enctype="application/x-www-form-urlencoded" action="#">
             <h2>Contact formulier</h2>
             <p>Een kleine enquette over mijn website.<br>Alvast bedankt voor het invullen.</p>
             <table>
                 <div class="table-div">
                 <tr>
-                    <td colspan="4">Naam</td>
+                    <td colspan="4">Uw Naam</td>
                     <td>:</td>
-                    <td colspan="5"><input class="txt" type="text"></td>
+                    <td colspan="5"><input class="txt" type="text" name="naam:"></td>
                 </tr>
                 <tr><td colspan="10"><p></p></td></tr> <!-- Adding white space-->
                 <tr>
@@ -118,7 +118,7 @@
                     <td class="radio"><input class="radio" name="aboutme" type="radio" value="9"/></td>
                     <td class="radio"><input class="radio" name="aboutme" type="radio" value="10"/></td>
                 </tr>
-                <th colspan="10">
+                <th colspan="10" id="games">
                     Games Thema
                 </th>
                 <tr>
@@ -144,6 +144,42 @@
                     <td class="radio"><input class="radio" name="games" type="radio" value="8"/></td>
                     <td class="radio"><input class="radio" name="games" type="radio" value="9"/></td>
                     <td class="radio"><input class="radio" name="games" type="radio" value="10"/></td>
+                </tr>
+                <th colspan="10" id="overall_impression">
+                    Overall impression
+                </th>
+                <tr>
+                    <td class="radio">1</td>
+                    <td class="radio">2</td>
+                    <td class="radio">3</td>
+                    <td class="radio">4</td>
+                    <td class="radio">5</td>
+                    <td class="radio">6</td>
+                    <td class="radio">7</td>
+                    <td class="radio">8</td>
+                    <td class="radio">9</td>
+                    <td class="radio">10</td>
+                </tr>
+                <tr>
+                    <td class="radio"><input class="radio" name="overall_impression" type="radio" value="1"/></td>
+                    <td class="radio"><input class="radio" name="overall_impression" type="radio" value="2"/></td>
+                    <td class="radio"><input class="radio" name="overall_impression" type="radio" value="3"/></td>
+                    <td class="radio"><input class="radio" name="overall_impression" type="radio" value="4"/></td>
+                    <td class="radio"><input class="radio" name="overall_impression" type="radio" value="5"/></td>
+                    <td class="radio"><input class="radio" name="overall_impression" type="radio" value="6"/></td>
+                    <td class="radio"><input class="radio" name="overall_impression" type="radio" value="7"/></td>
+                    <td class="radio"><input class="radio" name="overall_impression" type="radio" value="8"/></td>
+                    <td class="radio"><input class="radio" name="overall_impression" type="radio" value="9"/></td>
+                    <td class="radio"><input class="radio" name="overall_impression" type="radio" value="10"/></td>
+                </tr>
+                <tr>
+                    <td colspan="10">
+                        <textarea cols="50" rows="10" wrap="hard" name="bericht">Laat hier een leuk berichtje achter, een tip mag ook. Hoeft niet natuurlijk.</textarea>
+                    </td>
+                </tr>
+                <tr id="form-buttons">
+                    <td colspan="5"><input class="form-button" type="reset" value="Reset"/></td>
+                    <td colspan="5"><input class="form-button" type="submit"/></td>
                 </tr>
             </div>
             </table>
