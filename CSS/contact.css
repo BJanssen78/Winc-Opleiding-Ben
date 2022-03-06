@@ -11,18 +11,19 @@ form{
     /* text-align: center; */
 }
 table{
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 1.2em;
     font-weight: bold;
-    width: 80%;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
     /* border: 1px solid black; */
 }
-table > th, tr, td{
+/* table > th, tr, td{
     border: 1px solid black;
-}
+} */
 td.radio{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+    max-width: 37px;
 }
 input.radio{
     min-width: 25px;
