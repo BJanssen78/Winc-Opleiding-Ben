@@ -51,3 +51,7 @@ input.txt{
     color: yellow;
     background-color: black;
 }
+td.checkbox{
+    text-align: left;
+    padding: 10px;
+}
