@@ -55,3 +55,6 @@ td.checkbox{
     text-align: left;
     padding: 10px;
 }
+.netlify-captcha{
+    text-align: center;
+}
