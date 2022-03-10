@@ -46,7 +46,7 @@
     </nav>
 
     <section id="contact-form">
-        <form method="post" enctype="application/x-www-form-urlencoded" data-netlify="true">
+        <form method="post" enctype="application/x-www-form-urlencoded" data-netlify="true" data-netlify-recaptcha="true">
             <h2>Contact formulier</h2>
             <p>Een kleine enquette over mijn website.<br>Alvast bedankt voor het invullen.</p>
             <table>
@@ -206,6 +206,7 @@
                         <textarea cols="50" rows="10" wrap="hard" name="bericht&nbsp;">Laat hier een leuk berichtje achter, een tip mag ook. Hoeft niet natuurlijk.</textarea>
                     </td>
                 </tr>
+                <div data-netlify-recaptcha="true"></div>
                 <tr id="form-buttons">
                     <td colspan="5"><input class="form-button" type="reset" value="Reset"/></td>
                     <td colspan="5"><input class="form-button" type="submit" value="Submit"/></td>
